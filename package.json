@@ -1,0 +1,15 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Royston Shufflebotham <royston@shufflebotham.org>",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

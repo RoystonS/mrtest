@@ -1,0 +1,17 @@
+{
+  "name": "@my/pkg1",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc --preserveWatchOutput --module esnext --outDir dist/es -p src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+
+  "module": "dist/es/index",
+  "esnext": "dist/es/index",
+  "main": "dist/es/index"
+}

@@ -14,6 +14,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
-    "test": "yarn workspaces run build"
+    "test": "yarn workspaces run build",
+    "posttest": "node experiment.js"
   }
 }

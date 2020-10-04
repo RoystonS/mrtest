@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "test": "yarn workspaces run build"
   }
 }
